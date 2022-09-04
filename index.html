@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CDN para a utilização do CSS do Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- CDN para o BoxIcons, permite que usemos icones no tipo SVG com maior facilidade -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Link para o nosso arquivo CSS -->
+    <link rel="stylesheet" href="./assets/css/portfolio.css">
+    <title> Rafael Reis Romero --- Portfólio Pessoal </title>
+</head>
+<body>
+    
+    <header id="header" class="d-flex flex-sm-column flex-md-row fixed-top justify-content-around">
+        <div class="logo">
+            <img src="" alt="Logo do meu portfolio">
+        </div>
+        <nav class="menu-links navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#start">Início</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#resume">Resumo</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="#portfolio">Portfólio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="start" class="d-flex align-items-center justify-content-around">
+
+        <div class="start-texts d-flex justify-content-center">
+            <div class="social-buttons d-flex flex-column align-items-center justify-content-center">
+                <a class="d-flex align-items-center justify-content-center" href="https://www.linkedin.com/in/rafael-reis-romero/" target="_blank">
+                    <i class='bx bxl-linkedin'></i>
+                </a>
+                <a class="d-flex align-items-center justify-content-center" href="https://api.whatsapp.com/send?phone=5541999213308&text=Oi,vi o seu portfolio e decidi entrar em contato.">
+                    <i class='bx bxl-whatsapp' ></i>
+                </a>
+                <a class="d-flex align-items-center justify-content-center" href="https://github.com/romerorafael" target="_blank">
+                    <i class='bx bxl-github'></i>
+                </a>
+            </div>
+
+            <div class="start-text">
+                <h1>Rafael Romero</h1>
+                <p class="emphasis-text"> Desenvolvedor Full Stack </p>
+                <p class="emphasis-text"> Angular <span>|</span> C# </p>
+                <p class="simple-text-white">
+                    Este é meu Portfólio oficial.
+                    Todos os detalhes dos trabalhos desenvolvidos por mim estão aqui.
+                </p>
+                <div class="tools-icon">
+                    <i class='bx bxl-html5' ></i>
+                    <i class='bx bxl-css3' ></i>
+                    <i class='bx bxl-git' ></i>
+                    <i class='bx bxl-c-plus-plus' ></i>
+                    <i class='bx bxl-java' ></i>
+                    <i class='bx bxl-javascript' ></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="start-image">
+            <img src="./assets/images/banner-notebook.jpg" alt=" Notebook, relogio e um celular sobre um fundo preto" >
+        </div>
+    </section>
+
+    <div class="transiction"></div>
+
+    <section id="about" class="d-flex flex-column justify-content-center aligin-content-center">
+        <h2>SOBRE MIM</h2>
+
+        <div class="auto-description">
+            <h3> Um breve resumo sobre mim</h3>
+            <p> 
+                Nasci no México e fui criado no Brasil assim consigo mesclar tudo que os dois pasises representam. Gosto muito de conhecer 
+                coisas novas, sejam pessoas, lugares ou tecnologias. Adoro programar, principalmente depois de odiar programar porque nada deu certo, 
+                mas no fim tudo sempre se resolve da melhor maneira possível.
+            </p>
+        </div>
+
+        <div class="about-resume d-flex">
+
+            <div class="perfil">
+                <h4>Perfil</h4>
+                <p>
+                     Sou extremamente motivado e gosto de dividir todas minhas experiências
+                    com os outros. E ainda mais gosto muito de aprender com os outros.
+                </p>
+                <ul class="perfil-list m-auto text-right">
+                    <li>
+                        <h5 class="mb-0">Name:</h5>
+                        <p class="small-text m-0 mt-1">Rafael Reis Romero</p>
+                    </li>
+                    <li>
+                        <h5 class="mb-0">Nascimento:</h5>
+                        <p class="small-text m-0 mt-1">16/12/1987</p>
+                    </li>
+                    <li>
+                        <h5 class="mb-0">Cargo Atual:</h5>
+                        <p class="small-text m-0 mt-1"> Desenvolvedor FullStack</p>
+                    </li>
+                    <li>
+                        <h5 class="mb-0">Residência</h5>
+                        <p class="small-text m-0 mt-1">Curitiba - Paraná - Brasil</p>
+                    </li>
+                    <li>
+                        <h5 class="mb-0"> Contato: </h5>
+                        <p class="small-text m-0 mt-1"> www.linkedin.com/in/rafael-reis-romero/ </p>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="skills">
+                <h4>Skill</h4>
+                <p>Minhas principais ferramentas</p>
+                <ul>
+                    <li>
+                        <p class="speciality mb-0 mt-1">Angular 2+</p>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+                        </div>
+                    </li>
+                    <li>
+                        <p class="speciality mb-0 mt-1">C#</p>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85%</div>
+                        </div>
+                    </li>
+                    <li>
+                        <p class="speciality mb-0 mt-1">JavaScript</p>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+                        </div>
+                    </li>
+                    <li>
+                        <p class="speciality mb-0 mt-1">Java</p>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+                        </div>
+                    </li>
+                    <li>
+                        <p class="speciality mb-0 mt-1">Git</p>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">60%</div>
+                        </div>
+                    </li>
+                    <li>
+                        <p class="speciality mb-0 mt-1">Inglês</p>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">60%</div>
+                        </div>
+                    </li>
+                    <li>
+                        <p class="speciality mb-0 mt-1">Espanhol</p>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+    </section>
+
+    <div class="transiction-reverse"></div>
+
+    <section id="resume">
+        <h2>RESUMO</h2>
+
+        <h3 class="text-center mb-5">Experiências Profissionais</h3>
+        <div class="profisional d-flex">
+            <div class="name-skill text-end">
+                <h4>Desenvolvedor FullStack</h4>
+                <small> 2020 - presente </small>
+            </div>
+            <div class="separator">
+                <div class="icon-container d-flex justify-content-center align-items-center">
+                    <i class='bx bxs-briefcase-alt-2' ></i>
+                </div>
+            </div>
+            <div class="description-skill">
+                <h5>Polen</h5>
+                <p>
+                    Entrei em 2020 como estagiário para o BackEnd, utilizando C#. Com o tempo fui adiquirindo
+                    mais as noções do que a emporesa necessitava e acabei aprendendo a parte do FrontEnd junto. 
+                    Depois de 6 meses acabei sendo efetivado para ser o desenvolvedor FullStack, cuidando dos dois
+                    paineis e das novas ferramentas. Ainda durante meu desenvolvimento fui aprendendo o Code Clean e
+                    o SOLID os quais eu tento implementar em todos os meus códigos novos e, quando possível, refatorando os 
+                    antigos. Nesse tempo também atuei como o Scrum Master do time de Produto. 
+                </p>
+            </div>
+        </div>
+
+        <h3 class="text-center mb-5">Desenvolvimento Educacional</h3>
+        <div class="education d-flex flex-column">
+            <div class="d-flex my-1">
+                <div class="name-skill text-end">
+                    <h4>UNINTER </h4>
+                    <small> 2020 - presente </small>
+                </div>
+                <div class="separator">
+                    <div class="icon-container icon-container d-flex justify-content-center align-items-center">
+                        <i class='bx bxs-book-reader' ></i>
+                    </div>
+                </div>
+                <div class="description-skill">
+                    <h5>Tecnologia em Ciência de Dados</h5>
+                </div>
+            </div>
+            <div class="d-flex my-1">
+                <div class="name-skill text-end">
+                    <h4>Universidade Tecnológica Federal do Paraná</h4>
+                    <small> 2019 - interrompido </small>
+                </div>
+                <div class="separator">
+                    <div class="icon-container icon-container d-flex justify-content-center align-items-center">
+                        <i class='bx bxs-book-reader' ></i>
+                    </div>
+                </div>
+                <div class="description-skill">
+                    <h5>Bacharel em Sistemas de Informação</h5>
+                </div>
+            </div>
+            <div class="d-flex my-1">
+                <div class="name-skill text-end">
+                    <h4>Universidade Tecnológica Federal do Paraná</h4>
+                    <small> 2014 - 2016 </small>
+                </div>
+                <div class="separator">
+                    <div class="icon-container icon-container d-flex justify-content-center align-items-center">
+                        <i class='bx bxs-book-reader' ></i>
+                    </div>
+                </div>
+                <div class="description-skill">
+                    <h5>Mestrado em Química Tecnológica</h5>
+                    <p>
+                        Estudo realizado dentro da área de Nanotecnologia, voltada para aplicações ambientais.
+                    </p>
+                </div>
+            </div>
+            <div class="d-flex my-1">
+                <div class="name-skill text-end">
+                    <h4>Universidade Tecnológica Federal do Paraná</h4>
+                    <small> 2008 - 2014 </small>
+                </div>
+                <div class="separator">
+                    <div class="icon-container icon-container d-flex justify-content-center align-items-center">
+                        <i class='bx bxs-book-reader' ></i>
+                    </div>
+                </div>
+                <div class="description-skill">
+                    <h5>Bacharelado em Química Tecnológica</h5>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <div class="transiction"></div>
+
+    <section id="portfolio" class="d-flex flex-column justify-content-center aligin-content-center">
+        <h2>PORTFÓLIO</h2>
+
+        <div class="cards-container d-flex flex-wrap">
+
+            <div class="card-work"> 
+                <div class="card-image d-flex justify-content-center align-items-center">
+                    <img src="./assets/images/portfolio/port-ongs.png" alt="Imagem da tela principal do CRUD de Ongs">
+                </div>
+                <div class="card-text m-auto py-3">
+                    <h6>CRUD - Cadastro de ONGs</h6>
+                    <p class="card-description my-3 text-justify"> 
+                            CRUD realizado como teste para a entrada no Polen. Tinha o intuido de analisar o código, 
+                        tanto em HTML, CSS quanto no JavaScript. Utilizando o LocalStorage como o Banco de Dados. 
+                    </p>
+                    <p class="card-tools my-2 text-center fw-bold"> 
+                        JavaScript - HTML - CSS
+                    </p>
+                    <div class="card-icons text-center fw-bold"> 
+                        <div class="card-icon">
+                            <a href="https://github.com/romerorafael/CRUD_ONG" target="_blank"> <i class='bx bxl-github' ></i> </a> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-work"> 
+                <div class="card-image d-flex justify-content-center align-items-center">
+                    <img src="./assets/images/portfolio/port-canil.png" alt="Imagem da tela principal do site sobre um espaço de adoção de pets">
+                </div>
+                <div class="card-text m-auto py-3">
+                    <h6>Site - Canil</h6>
+                    <p class="card-description my-3 text-justify"> 
+                        Site desenvolvido como aplicação prática dos estudo realizado com a B7Web. Colocando conceitos de Node e TypeScript.
+                        Principais pontos de aprendizado foram o NodeJs, trabalhar com as rotas e modelos, utilização do Express e também do Mustache. 
+                    </p>
+                    <p class="card-tools my-2 text-center fw-bold"> 
+                        TypeScript - NodeJs - Mustache - Express
+                    </p>
+                    <div class="card-icons text-center fw-bold"> 
+                        <div class="card-icon">
+                            <a href="https://github.com/romerorafael/nodets-adocao" target="_blank"> <i class='bx bxl-github' ></i> </a> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-work"> 
+                <div class="card-image d-flex justify-content-center align-items-center">
+                    <img src="./assets/images/portfolio/port-wildbeast.png" alt="Imagem da tela principal do CRUD de Ongs">
+                </div>
+                <div class="card-text m-auto py-3">
+                    <h6>Site - Wild Beasts</h6>
+                    <p class="card-description my-3 text-justify"> 
+                        Site elaborado em conjunto com a Origamid para o aprendizado do CSS Grid. 
+                        Durante o curso foram aprendidos o funcionamento do Grid para no final do curso 
+                        este site pudesse ser desenvolvido
+                    </p>
+                    <p class="card-tools my-2 text-center fw-bold"> 
+                        HTML - CSS (GRID)
+                    </p>
+                    <div class="card-icons text-center fw-bold"> 
+                        <div class="card-icon">
+                            <a href="https://github.com/romerorafael/wildbeast" target="_blank"> <i class='bx bxl-github' ></i> </a> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-work"> 
+                <div class="card-image d-flex justify-content-center align-items-center">
+                    <img src="./assets/images/portfolio/port-clock.png" alt="Imagem de um relógio analogico feito no HTML/CSS">
+                </div>
+                <div class="card-text m-auto py-3">
+                    <h6>Relógio</h6>
+                    <p class="card-description my-3 text-justify"> 
+                            Relógio analógico feito com base nos estudos do B7Web. Tinhamos o foco de aprender a manipular divs,
+                            data e styles utilizando o JavaScript.
+                    </p>
+                    <p class="card-tools my-2 text-center fw-bold"> 
+                        JavaScript - HTML - CSS
+                    </p>
+                    <div class="card-icons text-center fw-bold"> 
+                        <div class="card-icon">
+                            <a href="https://github.com/romerorafael/relogioanalogico" target="_blank"> <i class='bx bxl-github' ></i> </a> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-work"> 
+                <div class="card-image d-flex justify-content-center align-items-center">
+                    <img src="./assets/images/portfolio/port-cofre.png" alt="Imagem da tela principal do CRUD de Ongs">
+                </div>
+                <div class="card-text m-auto py-3">
+                    <h6>Cofrinho</h6>
+                    <p class="card-description my-3 text-justify"> 
+                        Projeto realizado para entrega na disciplina de Programação Orientada a Objetos da Uninter. 
+                        O trabalho tinha como ponto principal a utilização das Classes, Classes Abstratas, Herança e Polimorfismo.
+                    </p>
+                    <p class="card-tools my-2 text-center fw-bold"> 
+                        Java
+                    </p>
+                    <div class="card-icons text-center fw-bold"> 
+                        <div class="card-icon">
+                            <a href=""> <i class='bx bxl-github' ></i> </a> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <div class="transiction-reverse"></div>
+
+    <section id="contact" class="d-flex flex-column justify-content-center aligin-content-center">
+        
+        <h2>CONTATO</h2>
+
+        <div class="form mx-auto my-5">
+            <form action="" class="row">
+                <div class="col-6 my-2">
+                    <label for="contactName" class="form-label">Nome:</label>
+                    <input type="text" class="form-control" id="contactName" placeholder="Qual seu nome, amigo?">
+                </div>
+
+                <div class="col-6 my-2">
+                    <label for="contactEmail" class="form-label">E-mail:</label>
+                    <input type="email" class="form-control" id="contactEmail" placeholder="Qual seu e-mail?">
+                </div>
+
+                <div class="col-12 my-2">
+                    <label for="assunto" class="form-label">Assunto</label>
+                    <input type="text" class="form-control" id="assunto" placeholder="Em que posso ajudar?">
+                </div>
+
+                <div class="col-12 my-2">
+                    <label for="fullTetx" class="form-label">Descrição do assunto:</label>
+                    <textarea name="fullTetx" id="fullTetx" cols="30" rows="10" class="form-control" placeholder="Agora me discreva certinho, com bem mais detalhes."></textarea>
+                </div>
+
+                <div class="col-12 my-3 text-center">
+                    <button type="submit" class="py-2 px-4">Enviar Mensagem</button>
+                </div>
+            </form>
+
+        </div>
+    </section>
+
+    <div class="transiction"></div>
+
+    <footer id="footer" class="text-center">
+        <h6>Rafael Reis Romero </h6>
+        <p>Esse portfolio é um projeto da UNINTER</p>
+        <p>Todos os projetos aqui expostos são da minha autoria</p>
+    </footer>
+
+    <!-- CDN para a utilização do JS do Bootstrap 5 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- Link para o nosso arquivo JS -->
+    <script src="./assets/js/portfolio.js"></script>
+</body>
+</html>

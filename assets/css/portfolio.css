@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* CSS auxiliar - css de tag e classes que serão usadas em todas as partes do documento*/
+:root
+{
+    --primary-color: #031424;
+    --secundary-color: #30415d;
+    --third-color: #cf6766;
+    --fourth-color: #8eaebd;
+    --background-ligth: #414141;
+}
+*, p, ul
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+html{
+    background-color: var(--primary-color);
+    min-height: 1000px;
+}
+ul
+{
+    list-style: none;
+}
+h2
+{
+    text-align: center;
+    font-size: 1.6rem;
+    text-transform: capitalize;
+    color: var(--third-color);
+}
+h3
+{
+    text-align: center;
+    font-size: 2rem;
+    margin: 2rem 0;
+    color: #ffffff;
+}
+section:nth-child(odd)
+{
+    
+}
+.simple-text-white
+{
+    color: #FFFFFF;
+    font-size: 1.125rem;
+}
+.emphasis-text
+{
+    color: var(--fourth-color);
+    font-size: 1.25rem;
+    line-height: 1.5;
+}
+.change-style
+{
+    background-color: var(--secundary-color) !important;
+}
+.change-style a.nav-link
+{
+    color: var(--fourth-color) !important;
+}
+.transiction-reverse
+{
+    width: 100%;
+    min-height: 50px;
+    background: linear-gradient(to top, var(--primary-color), var(--secundary-color));
+
+}
+.transiction
+{
+    width: 100%;
+    min-height: 50px;
+    background: linear-gradient(to top, var(--secundary-color), var(--primary-color));
+}
+
+/* Header CSS */
+#header
+{
+    position: fixed;
+    top: 0;
+    background-color: var(--primary-color);
+    height: 10vh;
+}
+a.nav-link
+{
+    color: var(--fourth-color);
+    text-transform: uppercase;
+    letter-spacing: 0.25rem;
+    font-weight: 600;
+}
+
+/* Start CSS */
+#start
+{
+    width: 100%;
+    padding-top: 15vh;
+    padding-bottom: 5vh;
+    min-height: 100vh;
+    background-color: var(--primary-color);
+}
+#start > div
+{
+    width: 40%;
+}
+#start .start-texts .social-buttons
+{
+    font-size: 1.85rem;
+    padding-right: 1rem;
+}
+#start .start-texts .social-buttons a
+{
+    color: var(--fourth-color);
+    background-color: var(--background-ligth);
+    width: 45px;
+    height: 45px;
+    margin-bottom: 0.5rem;
+    border-radius: 50%;
+    text-decoration: none;
+}
+#start .start-texts .social-buttons a:hover
+{
+    color: var(--background-ligth);
+    background-color: var(--secundary-color);
+}
+#start .start-texts .start-text h1,
+#start .start-texts .start-text span
+{
+    color: #FFFFFF;
+}
+#start .start-texts .start-text p
+{
+    margin: 0.75rem 0;
+}
+#start .start-texts .start-text .tools-icon
+{
+    margin: 1rem 0rem;
+    border-bottom: 3px solid var(--background-ligth);
+}
+#start .start-texts .start-text .tools-icon i
+{
+    font-size: 1.85rem;
+}
+#start .start-texts .start-text .tools-icon i + i
+{
+    margin-left: 0.2rem;
+}
+.bxl-html5,
+.bxl-git,
+.bxl-java
+{
+    color: #DD5239;
+}
+.bxl-css3,
+.bxl-c-plus-plus
+{
+    color:#2489c4;
+}
+.bxl-javascript
+{
+    color: #EFD81D;
+}
+#start .start-image img
+{
+    border: 4px solid var(--primary-color);
+    border-radius: 20px;
+    width: 85%
+}
+
+/* About CSS */
+#about
+{
+    background-color: var(--secundary-color); 
+    width: 100%;
+    min-height: 400px;
+    padding: 3rem 10%;
+}
+#about p
+{
+    color: var(--fourth-color);
+    margin: 1rem 15%;
+    font-size: 1.1rem;
+    text-align: justify;
+}
+#about h4
+{
+    color: var(--third-color);
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+#about .about-resume
+{
+    margin: 1rem 15%;
+}
+#about .about-resume div
+{
+    text-align: center;
+    width: 50%;
+}
+#about .about-resume ul
+{
+    width: 70%;
+}
+#about .about-resume li h5
+{
+    text-align: start;
+    color: var(--third-color);
+}
+#about .about-resume li p
+{
+    font-size: 1rem;
+}
+#about .about-resume .skills ul li p
+{
+    color: var(--third-color);
+    font-size: 1.25rem;
+}
+#about .about-resume .skills ul li .progress
+{
+    height: 1.1rem;
+    margin-left: 15%;
+    margin-top: 0.5rem;
+    width: 100%;
+    border-radius: 10px;
+}
+#about .about-resume .skills ul li .progress-bar
+{
+    background-color: var(--primary-color);
+}
+/* Resume CSS*/
+#resume
+{
+    background-color: var(--primary-color); 
+    padding: 3rem 10%;
+}
+#resume h4
+{
+    font-size: 1.8rem;
+    margin-bottom: 0.1rem;
+}
+.name-skill,
+.description-skill
+{
+    color: var(--fourth-color);
+    width: 50%;
+    padding: 1rem 0;
+}
+.separator
+{
+    border: 1px dashed var(--third-color);
+    min-height: 100px;
+    width: 1px;
+    margin: 0 5rem;
+    position: relative;
+}
+.icon-container
+{
+    width: 44px;
+    min-height: 44px;
+    background: var(--third-color);
+    position: relative;
+    top: 7px;
+    left: -22px;
+    border-radius: 50%;
+    color: var(--primary-color);
+    font-size: 2rem;
+}
+
+/* Protfolio */
+#portfolio
+{
+    background-color: var(--secundary-color); 
+    padding: 3rem 10%;
+}
+.card-work
+{
+    border: 2px solid var(--third-color);
+    width: 30%;
+    margin: 1.5%;
+    border-radius: 20px 0 20px 0;
+}
+.card-work p
+{
+    color: var(--fourth-color);
+}
+.card-work .card-image
+{
+    background-color: #ffffff;
+    min-height: 250px;
+    border-bottom: 1px solid var(--third-color);
+    border-radius: 20px 0 0 0 ;
+}
+.card-work .card-image img
+{
+    width: 95%;
+    -webkit-transition: -webkit-transform .5s ease;
+   transition: transform .5s ease;
+}
+.card-work .card-text
+{
+    width: 80%;
+}
+.card-work .card-text h6
+{
+    color: var(--third-color);
+    font-size: 1.7rem;
+    letter-spacing: 1;
+}
+.card-work .card-icon
+{
+    font-size: 2.5rem;
+}
+.card-work .card-icon a
+{
+    color: var(--third-color);
+}
+
+
+/* Contact CSS */
+#contact
+{
+    background-color: var(--primary-color);
+    padding: 3rem 10%;
+}
+
+#contact .form
+{
+    width: 80%;
+}
+#contact .form label
+{
+    color: var(--fourth-color);
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-bottom: 1px solid var(--third-color);
+}
+#contact .form input,
+#contact .form textarea
+{
+    border: 2px solid var(--third-color) ;
+}
+#contact .form button
+{
+    border: none;
+    border-radius: 30px;
+    background-color: var(--third-color);
+    color: var(--primary-color);
+}
+
+/* Footer CSS */
+#footer
+{
+    background-color: var(--primary-color);
+    padding: 3rem 10%;
+}
+#footer h6
+{
+    color: var(--third-color);
+    font-size: 2rem; 
+}
+#footer p
+{
+    color: var(--fourth-color);
+    font-size: 1.1rem; 
+}
