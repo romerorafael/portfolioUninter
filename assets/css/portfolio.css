@@ -363,3 +363,62 @@ a.nav-link
     color: var(--fourth-color);
     font-size: 1.1rem; 
 }
+
+/* Medias Queires -- para a responsividade do site */
+@media screen and (max-width: 768px) {
+    #start
+    {
+        padding-top: 10vh;
+    }
+    #start > div 
+    {
+        width: 80%;
+    }
+    #start .start-texts .social-buttons a
+    {
+        width: 50px;
+        height: 50px;
+        margin: 10px 15px ;
+    }
+    #start .start-image img
+    {
+        width: 100%;
+    }
+
+    /* About CSS Mobile */
+    #about p
+    {
+        margin: 0;
+    }
+    #about .about-resume  {
+        margin: 1rem 5%;
+    }
+    #about .about-resume div {
+        width: 100%;
+    }
+
+    /* Resume CSS */
+    .name-skill,
+    .description-skill
+    {
+        width: 100%;
+    }
+    .separator
+    {
+        min-height: 1px;
+        max-height: 1px;
+        width: auto;
+    }
+    .icon-container
+    {
+        top: -22px;
+        left: 38%
+    }
+
+
+    /* Portfolio CSS */
+    .card-work
+    {
+        width: 100%;
+    }
+}
